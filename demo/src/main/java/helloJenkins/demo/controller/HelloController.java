@@ -8,6 +8,6 @@ public class HelloController {
 
     @RequestMapping("/")
     public String sayHello(){
-        return "hello springboot";
+        return "hello springboot build by jenkins";
     }
 }
